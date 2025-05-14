@@ -1,0 +1,44 @@
+.controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  background-color: #292a2d;
+  gap: 16px;
+}
+
+.control-btn {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: none;
+  background-color: #3c4043;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 18px;
+  transition: all 0.2s;
+}
+
+.control-btn:hover {
+  background-color: #5f6368;
+}
+
+.control-btn.disabled {
+  background-color: #ea4335;
+}
+
+.control-btn.sharing {
+  background-color: #00796b;
+}
+
+.control-btn.end-call {
+  background-color: #ea4335;
+  margin-left: 16px;
+}
+
+.control-btn.end-call:hover {
+  background-color: #d93025;
+}
